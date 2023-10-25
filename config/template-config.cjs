@@ -34,34 +34,6 @@ const TEMPLATE_CONFIG = [
       
       {{poetry_title.DATA}} {{poetry_content.DATA}}
     `
-  },
-  {
-    id: '0003',
-    title: '小柔宝, 早上好呀！',
-    desc: `
-      **{{date.DATA}}**
-      🗓️{{date.DATA}}
-
-      今天是我们在一起的第{{love_day.DATA}}天，爱你❤️
-
-      今日{{city.DATA}}天气☁️：{{weather.DATA}}
-      温度🌡️: {{min_temperature.DATA}}-{{max_temperature.DATA}}
-      风向：{{wind_direction.DATA}}
-      风级：{{wind_scale.DATA}}
-      湿度：{{shidu.DATA}}
-      空气质量：{{aqi.DATA}}
-      预防感冒提醒：{{ganmao.DATA}}
-
-      生日提醒：
-      1.{{wx_birthday_0.DATA}} 
-      2.{{wx_birthday_1.DATA}} 
-      3.{{wx_birthday_2.DATA}} 
-      4.{{wx_birthday_3.DATA}}
-
-  
-      下一节假日日：{{wx_holidaytts_1.DATA.DATA}}
-      下一个心动日：{{birthday_message.DATA}}
-  
   }
 ]
 
