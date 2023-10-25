@@ -63,9 +63,9 @@ const TEMPLATE_CONFIG = [
       下一个心动日：{{birthday_message.DATA}}
     `
       每日一句（中文）：
-      {{wx_note_ch_0.DATA}}{{wx_note_ch_1.DATA}}
+      /* {{wx_note_ch_0.DATA}}{{wx_note_ch_1.DATA}} */
       每日一句（英文）：
-      {{wx_note_ch_0.DATA}}{{wx_note_ch_1.DATA}}
+     /* {{wx_note_ch_0.DATA}}{{wx_note_ch_1.DATA}} */
   },
 
   {
