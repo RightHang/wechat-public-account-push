@@ -111,10 +111,10 @@ const USER_CONFIG = {
       name: '小柔宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'hhLlpLSt1JG96rLQp83wHV0ZC_9IhoGw2oJcZKsEfEY',
+      id: 'oVR1U6eM7qvaj6JJL2OJ3mIjYx0w',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: '',
+      useTemplateId: 'hhLlpLSt1JG96rLQp83wHV0ZC_9IhoGw2oJcZKsEfEY',
       // 所在省份或城市，也可以不填
       province: '广东',
       // 所在城市或县区
@@ -238,7 +238,7 @@ const USER_CONFIG = {
 
   // 使用微信测试号：【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   // 使用其他通道时，请填写 config/template-config.cjs 中【推送完成提醒】模板的id
-  CALLBACK_TEMPLATE_ID: '	c-omZ3PthsENeucHfba4XOv0zM1HGV71yGrAZCbipPk',
+  CALLBACK_TEMPLATE_ID: 'c-omZ3PthsENeucHfba4XOv0zM1HGV71yGrAZCbipPk',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
