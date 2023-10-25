@@ -70,8 +70,6 @@ const TEMPLATE_CONFIG = [
     desc: `
       服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
       
-      ---
-      
       共推送 {{need_post_num.DATA}} 人
       
       成功: {{success_post_num.DATA}} | 失败: {{fail_post_num.DATA}}
