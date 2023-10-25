@@ -51,9 +51,21 @@ const TEMPLATE_CONFIG = [
       湿度：{{shidu.DATA}}
       空气质量：{{aqi.DATA}}
       预防感冒提醒：{{ganmao.DATA}}
-      下一休息日：{{holidaytts.DATA}}
+
+      生日提醒：
+      1.{{wx_birthday_0.DATA}} 
+      2.{{wx_birthday_1.DATA}} 
+      3.{{wx_birthday_2.DATA}} 
+      4.{{wx_birthday_3.DATA}}
+
+  
+      下一节假日日：{{wx_holidaytts_1.DATA.DATA}}
       下一个心动日：{{birthday_message.DATA}}
     `
+      每日一句（中文）：
+      {{wx_note_ch_0.DATA}}{{wx_note_ch_1.DATA}}
+      每日一句（英文）：
+      {{wx_note_ch_0.DATA}}{{wx_note_ch_1.DATA}}
   },
 
   {
