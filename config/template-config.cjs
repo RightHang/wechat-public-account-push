@@ -56,7 +56,7 @@ const TEMPLATE_CONFIG = [
     id: '0003',
     title: '小柔宝贝, 早上好呀！！',
     desc: `
-    🗓️**{{date.DATA}} **
+    🗓️ **{{date.DATA}}**
 
     下个休息日：{{holidaytts.DATA}}
 
@@ -82,7 +82,8 @@ const TEMPLATE_CONFIG = [
     
     ---
     
-    宝子下面可以忽略不看啦，省流！
+    宝子下面可以忽略不看啦，省流!！
+
     
     金山每日一句：
 
@@ -95,9 +96,7 @@ const TEMPLATE_CONFIG = [
 
     * {{poetry_title.DATA}}
 
-    * {{poetry_author.DATA}} 
-
-    * {{poetry_dynasty.DATA}}
+    * {{poetry_author.DATA}}({{poetry_dynasty.DATA}})
 
     * {{ poetry_content.DATA}}
 
@@ -116,15 +115,15 @@ const TEMPLATE_CONFIG = [
     ---
     星座运势
 
-    综合运势：{{comprehensive_horoscope.DATA}}
+    * {{comprehensive_horoscope.DATA}}
 
-    爱情运势：{{love_horoscope.DATA}}
+    * {{love_horoscope.DATA}}
 
-    事业学业：{{career_horoscope.DATA.DATA}}
+    * {{career_horoscope.DATA.DATA}}
 
-    财富运势：{{wealth_horoscope.DATA}}
+    * {{wealth_horoscope.DATA}}
 
-    健康运势：{{healthy_horoscope.DATA}}
+    * {{healthy_horoscope.DATA}}
 
     ---
 
