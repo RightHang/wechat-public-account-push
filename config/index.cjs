@@ -10,7 +10,7 @@ const USER_CONFIG = {
   // 使用【微信测试号】请填写 wechat-test
   // 使用【方糖服务号】请填写 server-chan
   // 使用【pushplus推送加服务号】请填写 push-plus
-  USE_PASSAGE: 'wechat-test',
+  USE_PASSAGE: 'push-plus',
   
   // 使用微信测试号时才需要填写：公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
@@ -111,7 +111,7 @@ const USER_CONFIG = {
       name: '小柔宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'oVR1U6QFHj8mCX_Q09Wh3mKP9B_s',
+      id: '72fd7e40bd0c4b2299a6742c2a5d3f84',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
       useTemplateId: 'pgZSiO1OhmJGgJOUEtoBcy8MLFT1v6X5iD9a0i6NA0Q',
