@@ -137,6 +137,9 @@ const USER_CONFIG = {
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '节日', name: '周年纪念日', year: '2023', date: '05-07',
+        },
+        {
+          type: '节日', name: '考研', year: '2023', date: '12-23',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -235,7 +238,7 @@ const USER_CONFIG = {
 
   // 使用微信测试号：【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   // 使用其他通道时，请填写 config/template-config.cjs 中【推送完成提醒】模板的id
-  CALLBACK_TEMPLATE_ID: 'c-omZ3PthsENeucHfba4XOv0zM1HGV71yGrAZCbipPk',
+  CALLBACK_TEMPLATE_ID: '0002',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -244,7 +247,7 @@ const USER_CONFIG = {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'oVR1U6eM7qvaj6JJL2OJ3mIjYx0w',
+      id: '72fd7e40bd0c4b2299a6742c2a5d3f84',
     }
     // 你可以不断按格式往下增加
     // ...
