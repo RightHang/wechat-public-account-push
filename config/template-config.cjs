@@ -33,61 +33,20 @@ const TEMPLATE_CONFIG = [
       {{moment_copyrighting.DATA}}
       
       {{poetry_title.DATA}} {{poetry_content.DATA}}
-    `
-  },
-  {
-    id: '0002',
-    title: '推送完成提醒',
-    desc: `
-      服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
-      
-      ---
-      
-      共推送 {{need_post_num.DATA}} 人
-      
-      成功: {{success_post_num.DATA}} | 失败: {{fail_post_num.DATA}}
-      
-      成功用户: {{success_post_ids.DATA}}
-      
-      失败用户: {{fail_post_ids.DATA}}
-    `
-  },
-  {
-    id: '0003',
-    title: '小柔宝贝, 早上好呀！！',
-    desc: `
-    🗓️ **{{date.DATA}}**
 
-    下个休息日：{{holidaytts.DATA}}
+         ---
+    星座运势
 
-    ---
+    * {{comprehensive_horoscope.DATA}}
 
-    城市：{{city.DATA}} 
+    * {{love_horoscope.DATA}}
 
-    天气☁️：{{weather.DATA}} 
+    * {{career_horoscope.DATA.DATA}}
 
-    温度🌡️: {{min_temperature.DATA}}-{{max_temperature.DATA}}  
+    * {{wealth_horoscope.DATA}}
 
-    预防感冒提醒：{{ganmao.DATA}}
+    * {{healthy_horoscope.DATA}}
 
-    温馨提示：{{notice.DATA}}
-
-    ---
-
-    ❤️今天是我们恋爱的第{{love_day.DATA}}天❤️
-
-    ❤️今天是我们结婚的第{{marry_day.DATA}}天❤️
-
-    {{birthday_message.DATA}}
-    
-    ---
-    
-    宝子下面可以忽略不看啦，省流!！
-
-    
-    金山每日一句：
-
-    英文：{{note_en.DATA}}
 
     中文：{{note_ch_0.DATA}}
     
@@ -111,19 +70,61 @@ const TEMPLATE_CONFIG = [
 
     毒鸡汤:
     * {{poison_chicken_soup.DATA}}
+    `
+  },
+  {
+    id: '0002',
+    title: '推送完成提醒',
+    desc: `
+      服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
+      
+      ---
+      
+      共推送 {{need_post_num.DATA}} 人
+      
+      成功: {{success_post_num.DATA}} | 失败: {{fail_post_num.DATA}}
+      
+      成功用户: {{success_post_ids.DATA}}
+      
+      失败用户: {{fail_post_ids.DATA}}
+    `
+  },
+  {
+    id: '0003',
+    title: '小柔柔, 感冒药要吃哦',
+    desc: `
+    🗓️ **{{date.DATA}}**
+
+    下个休息日：{{holidaytts.DATA}}
 
     ---
-    星座运势
 
-    * {{comprehensive_horoscope.DATA}}
+    城市：{{city.DATA}} 
 
-    * {{love_horoscope.DATA}}
+    天气☁️：{{weather.DATA}} 
 
-    * {{career_horoscope.DATA.DATA}}
+    温度🌡️: {{min_temperature.DATA}}-{{max_temperature.DATA}}  
 
-    * {{wealth_horoscope.DATA}}
+    预防感冒提醒：{{ganmao.DATA}}
 
-    * {{healthy_horoscope.DATA}}
+    温馨提示：{{notice.DATA}}
+
+    ---
+
+    ❤️今天是我们恋爱的第{{love_day.DATA}}天❤️
+
+    ❤️距离我们结婚的还有{{marry_day.DATA}}天❤️
+
+    {{birthday_message.DATA}}
+    
+    ---
+    
+    宝贝下面可以忽略不看啦，省流!！
+
+    
+    金山每日一句：
+
+    英文：{{note_en.DATA}}
 
     ---
 
