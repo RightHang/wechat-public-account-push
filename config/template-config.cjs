@@ -91,7 +91,7 @@ const TEMPLATE_CONFIG = [
   },
   {
     id: '0003',
-    title: '小柔柔, 感冒药要吃哦',
+    title: '小柔宝贝, 早上好呀！！',
     desc: `
     🗓️ **{{date.DATA}}**
 
