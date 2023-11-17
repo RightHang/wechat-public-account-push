@@ -91,7 +91,7 @@ const TEMPLATE_CONFIG = [
   },
   {
     id: '0003',
-    title: '最最最爱的宝贝柔柔❤️, 早上好呀！！',
+    title: '心肝宝贝, 早上好呀！！',
     desc: `
     🗓️ **{{date.DATA}}**
 
@@ -135,6 +135,10 @@ const TEMPLATE_CONFIG = [
     日出时间：{{sunrise.DATA}}
 
     日落时间：{{sunset.DATA}}
+
+
+    不想惹你生气的，我并没有你想的那么坏的，宝子相信我
+
     `
   },
 ]
